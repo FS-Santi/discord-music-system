@@ -1,9 +1,9 @@
 {
     "messages": {
-        "noPrivateMessages": "I do not reply to private messages.",
-        "voiceChannelNeeded": "You need to be in a voice channel to use this command.",
-        "cannotConnect": "I cannot connect to your voice channel, make sure I have the proper permissions!",
-        "noArgs": "You have to enter a search term.",
+        "noPrivateMessages": "You cannot issue this command in DM's",
+        "voiceChannelNeeded": "You must be in a voice channel to use this command.",
+        "cannotConnect": "I am unable to join your voice channel, make sure I have the required permmisions",
+        "noArgs": "Please specify what to play",
         "sameVoiceChannel": "You must be in the same vocal channel as the bot to be able to listen to music.",
         "nothingPlaying": "There is nothing currently playing.",
         "noMoreSongs": "There is no more songs in the playlist.",
@@ -12,13 +12,13 @@
         "couldNotBeFound": "This sound could not be found.",
         "restrictedOrNotFound": "This song is restricted or could not be found!",
         "hasBeenAdded": "has been added to the queue.",
-        "errorWhileParsingVideo": "An error occured while searching the video.",
-        "errorWhileParsingPlaylist": "An error occured while parsing the playlist songs."
+        "errorWhileParsingVideo": "An error occured while searching the video if this error persists please contact Santi#0001",
+        "errorWhileParsingPlaylist": "An error occured while parsing the playlist songs, if this error persists please contact Santi#0001."
     },
     "embeds": {
         "createdMusicPlayer": {
             "title": "Info",
-            "description": "The `music player` has been **created**!"
+            "description": "Searching..."
         },
         "nowPlaying": {
             "title": "🎵 Now playing",
@@ -28,23 +28,23 @@
             "live": "◉ LIVE"
         },
         "skipSong": {
-            "askedBy": "Asked by",
+            "askedBy": "Skipped by",
             "beenSkipped": "has been skipped."
         },
         "volumeEmbed": {
             "title": "🔊 Volume",
-            "changedFrom": "Changed from",
+            "changedFrom": "Updated from",
             "to": "to"
         },
         "pauseEmbed": {
             "title": "Info",
-            "description": "**⏸ Paused the music.**",
-            "askedBy": "Asked by"
+            "description": "**⏸ Paused the music**",
+            "askedBy": "Requested by"
         },
         "resumeEmbed": {
             "title": "Info",
-            "description": "**▶ Resumed the music.**",
-            "askedBy": "Asked by"
+            "description": "**▶ Resumed the music**",
+            "askedBy": "Requested by"
         },
         "removeEmbed": {
             "title": "🚫 Removed",
@@ -57,15 +57,15 @@
         },
         "playerDestroyedEmbed": {
             "author": "Info",
-            "description": "The `music player` has been **destroyed**!"
+            "description": "The music queue has been cleared."
         },
         "lyricsEmbed": {
             "searching": "Searching...",
-            "askedBy": "Asked by "
+            "askedBy": "Requested by "
         },
         "playEmbed": {
             "addedBy": "🔎 Added by",
-            "luckySearch": "with lucky search.",
+            "luckySearch": "",
             "published": "Published",
             "views": "Views"
         },
